@@ -1,3 +1,4 @@
+# checks for outdated , examples
 version: 2
 updates:
   - package-ecosystem: "nuget" # For .NET projects using NuGet
