@@ -1,0 +1,9 @@
+{
+  "model_path": "yolov8m.onnx",
+  "mouse_speed": 1.5,
+  "reaction_time": 50,
+  "detection_threshold": 0.4,
+  "visuals": true,
+  "debug_mode": false,
+  "gpu_id": 0
+}

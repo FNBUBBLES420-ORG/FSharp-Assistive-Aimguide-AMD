@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.20.1" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime.DirectML" Version="1.20.1" />
+    <PackageReference Include="TorchSharp" Version="0.101.0" />  <!-- Verify if this is the latest version -->
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="Emgu.CV" Version="4.6.0.5131" />  <!-- Corrected to the nearest available version -->
+    <PackageReference Include="System.IO.Ports" Version="7.0.0" />
+    <PackageReference Include="InputSimulatorStandard" Version="1.0.0" />
+    <PackageReference Include="RJCP.SerialPortStream" Version="3.0.1" />
+    <PackageReference Include="SharpDX" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0" />
+    <PackageReference Include="SharpDX.DXGI" Version="4.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="GPUProcessing.fs" />
+    <Compile Include="ModelSelection.fs" />
+    <Compile Include="ScreenCapture.fs" />
+    <Compile Include="YOLOInference.fs" />
+    <Compile Include="InputControl.fs" />
+    <Compile Include="GameSelection.fs" />
+    <Compile Include="SerialCommunication.fs" />
+    <Compile Include="AssistiveAimGuide.fs" />
+  </ItemGroup>
+
+</Project>
