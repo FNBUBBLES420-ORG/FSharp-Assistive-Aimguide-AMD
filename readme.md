@@ -105,7 +105,7 @@ dotnet --version
 ## 2️⃣ Install Project Dependencies
 Run the setup script:
 ```
-setup_dependencies.bat  # (Windows 11)
+install_dotnet.bat  # (Windows 11)
 ```
 - Or manually install the required packages:
 
