@@ -3,7 +3,7 @@ chcp 65001 >nul 2>&1  REM Ensure UTF-8 encoding for compatibility
 cls
 
 echo ===============================
-echo  🚀 Installing Required Packages...
+echo  🚀 Installing DotNet...
 echo ===============================
 
 :: Check if .NET SDK is installed
