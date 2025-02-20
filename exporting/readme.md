@@ -7,4 +7,4 @@
 
 ## for exporting you need to install pet python 
 - there is one provided, it will do it for you add to path etc
-- [auto-setup](https://github.com/FNBUBBLES420-ORG/FSharp-Assistive-Aimguide-AMD/tree/main/Assistive-Aim-guide-Auto-Setup)
+- [view auto setup to install python 3119](https://github.com/FNBUBBLES420-ORG/FSharp-Assistive-Aimguide-AMD/tree/main/Assistive-Aim-guide-Auto-Setup)
