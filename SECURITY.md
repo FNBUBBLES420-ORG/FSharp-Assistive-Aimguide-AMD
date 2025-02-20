@@ -4,17 +4,20 @@
 
 Below are the versions currently supported with security updates:
 
-| Package                               | Supported Version |
-|---------------------------------------|------------------|
-| **Microsoft.ML.OnnxRuntime**          | 1.20.1          |
-| **Microsoft.ML.OnnxRuntime.Gpu**      | 1.20.1          |
-| **Microsoft.ML.OnnxRuntime.DirectML** | 1.20.1          |
-| **TorchSharp**                        | 0.100.5         |
-| **MathNet.Numerics**                  | 5.0.0           |
-| **Emgu.CV**                           | 4.5.5           |
-| **WindowsInput**                      | 1.3.0           |
-| **ManagedCuda**                       | 11.7.0          |
-| **DirectML.NET**                      | 1.9.0           |
+| **Package**                           | **Command**                                                                                               | **Version**    |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------|----------------|
+| Microsoft.ML.OnnxRuntime              | `dotnet add package Microsoft.ML.OnnxRuntime --version 1.20.1`                                              | 1.20.1         |
+| Microsoft.ML.OnnxRuntime.DirectML     | `dotnet add package Microsoft.ML.OnnxRuntime.DirectML --version 1.20.1`                                     | 1.20.1         |
+| TorchSharp                            | `dotnet add package TorchSharp --version 0.101.0`                                                           | 0.101.0        |
+| MathNet.Numerics                      | `dotnet add package MathNet.Numerics --version 5.0.0`                                                       | 5.0.0          |
+| Emgu.CV                               | `dotnet add package Emgu.CV --version 4.6.0.5131`                                                           | 4.6.0.5131     |
+| System.IO.Ports                       | `dotnet add package System.IO.Ports --version 7.0.0`                                                        | 7.0.0          |
+| InputSimulatorStandard                | `dotnet add package InputSimulatorStandard --version 1.0.0`                                                 | 1.0.0          |
+| RJCP.SerialPortStream                 | `dotnet add package RJCP.SerialPortStream --version 3.0.1`                                                  | 3.0.1          |
+| SharpDX                               | `dotnet add package SharpDX --version 4.2.0`                                                                | 4.2.0          |
+| SharpDX.Direct3D11                    | `dotnet add package SharpDX.Direct3D11 --version 4.2.0`                                                     | 4.2.0          |
+| SharpDX.DXGI                          | `dotnet add package SharpDX.DXGI --version 4.2.0`                                                           | 4.2.0          |
+| Newtonsoft.Json                       | `dotnet add package Newtonsoft.Json --version 13.0.3`                                                       | 13.0.3         |
 
 ## Reporting a Vulnerability
 
