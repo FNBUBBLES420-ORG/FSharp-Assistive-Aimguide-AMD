@@ -1,0 +1,95 @@
+# .gitignore for Assistive Aim Guide (F# YOLO-Based AI)
+
+# Ignore build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+*.a
+*.lib
+*.o
+*.obj
+*.cache
+
+# Ignore user-specific files
+.vscode/
+.idea/
+*.userprefs
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore log and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore dependency management files
+paket-files/
+packages/
+.nuget/
+
+# Ignore model and cache files
+*.onnx
+*.engine
+*.pt
+cache/
+checkpoints/
+__pycache__/
+
+# Ignore configuration and environment files
+config.json
+.env
+secrets.json
+
+# Ignore image and video files (captured output)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+*.mov
+*.bmp
+
+# Ignore compiled Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Visual Studio Code workspace settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Ignore Emgu.CV native files
+Emgu.CV.World.dll
+opencv_ffmpeg*.dll
+
+# Ignore SharpDX logs and temporary files
+SharpDX.log
+*.sharpdxcache
+
+# Ignore dotnet artifacts
+*.csproj.user
+*.nupkg
+*.snupkg
+
+# Ignore DirectX Shader cache
+*.cso
+*.hlsl
+
+# Ignore MD files
+*.md
+
+# Ignore .fsproj.md
+*.fsproj.md
+
+# Ignore .fsproj
+*.fsproj
