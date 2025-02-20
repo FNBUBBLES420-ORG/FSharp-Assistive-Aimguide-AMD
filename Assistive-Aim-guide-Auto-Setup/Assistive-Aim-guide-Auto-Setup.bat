@@ -139,10 +139,21 @@ if "%gpu_type%"=="NVIDIA" (
 
 :: Install Dependencies
 echo Installing required dependencies...
+
+:: NVIDIA block
 if "%gpu_type%"=="NVIDIA" (
     echo Installing NVIDIA CUDA-enabled packages...
     python -m pip install torch==2.6.0+cu118 torchvision==0.21.0+cu118 torchaudio==2.6.0+cu118 --index-url https://download.pytorch.org/whl/cu118
     python -m pip install "https://github.com/cupy/cupy/releases/download/v13.3.0/cupy_cuda11x-13.3.0-cp311-cp311-win_amd64.whl"
+)
+
+:: AMD block
+if "%gpu_type%"=="AMD" (
+    echo Installing AMD GPU packages (DirectML)...
+    python -m pip install --upgrade pip
+    python -m pip install torch-directml
+    :: If you also want torchvision/torchaudio, install them:
+    python -m pip install torchvision torchaudio
 )
 
 pause
