@@ -1,8 +1,18 @@
-# Security Policy
+# Security and Dependency Management
 
-## Supported Versions
+This document outlines the security considerations and dependency management guidelines for this project. Use the grids below to install the correct package versions for your target GPU hardware.
 
-Below are the versions currently supported with security updates:
+---
+
+## Dependency Integrity
+
+All dependencies are managed via the .NET package manager (`dotnet add package`). The versions listed in the tables have been verified for compatibility and security. Always use secure connections when installing packages, and verify package integrity using the publisher’s checksums or signatures.
+
+---
+
+## AMD GPU Deployment
+
+For systems with AMD GPUs using DirectML, install the following packages:
 
 | **Package**                           | **Command**                                                                                               | **Version**    |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------|----------------|
@@ -19,14 +29,24 @@ Below are the versions currently supported with security updates:
 | SharpDX.DXGI                          | `dotnet add package SharpDX.DXGI --version 4.2.0`                                                           | 4.2.0          |
 | Newtonsoft.Json                       | `dotnet add package Newtonsoft.Json --version 13.0.3`                                                       | 13.0.3         |
 
-## Reporting a Vulnerability
+---
 
-If you discover a security vulnerability, please follow the steps below:
+## Additional Security Measures
 
-1. **Submit an Issue:** Open a security issue in the repository and describe the vulnerability in detail.
-2. **Contact Maintainers:** Email the security team at `contact@fnbubbles420.org`
-3. **Expected Response Time:** We will acknowledge your report within **72 hours** and provide updates regularly.
-4. **Resolution Process:** If accepted, we will develop and release a fix in the next security update cycle. If declined, we will provide a detailed explanation.
+- **Environment Isolation:**  
+  Utilize containerization or virtual environments to isolate project dependencies from your host system.
 
-### Responsible Disclosure
-We encourage responsible disclosure and will work with researchers to validate, address, and disclose vulnerabilities in a manner that minimizes risk to users.
+- **Regular Updates:**  
+  Monitor for security updates and vulnerability patches for all dependencies. Review release notes regularly to ensure that you apply necessary security fixes.
+
+- **Dependency Scanning:**  
+  Use tools such as [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) to identify and remediate potential vulnerabilities in your project dependencies.
+
+- **Secure Configuration:**  
+  Make sure that configuration files (e.g., `config.json`, `.env`) do not contain sensitive data. Store secrets and sensitive configuration in secure vaults or environment variables.
+
+---
+
+By following these guidelines and installing the specified package versions, you help ensure that your project remains secure, stable, and compliant with our security standards. For further security best practices, refer to our internal security documentation or contact the security team.
+
+---
