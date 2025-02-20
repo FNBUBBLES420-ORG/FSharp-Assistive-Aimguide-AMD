@@ -195,8 +195,10 @@ You can edit the config.json file to tweak settings such as:
 
 ### Note: This tool is Windows 11-only due to its reliance on DirectX and Windows-specific libraries.
 
-## 📄 License
-This project is proprietary. All rights are reserved by the author. Unauthorized copying, distribution, or modification is strictly prohibited unless you have written permission from the Developer or the FNBUBBLES420 ORG.
+# LICENSE
+### ***This project is proprietary and all rights are reserved by the author.***
+### ***Unauthorized copying, distribution, or modification of this project is strictly prohibited.***
+### ***Unless You have written permission from the Developer or the FNBUBBLES420 ORG.***
 
 ## 📧 Need help? Contact us on Discord or open an issue!
 
