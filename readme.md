@@ -107,7 +107,7 @@ Run the setup script:
 ```
 install_dotnet.bat  # (Windows 11)
 ```
-- Or manually install the required packages:
+- Manually install the required packages below:
 
 ```
 dotnet add package Microsoft.ML.OnnxRuntime --version 1.20.1
