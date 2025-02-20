@@ -61,7 +61,7 @@ This image, including its design, text, and visual elements, is protected under 
 
 # 🎯 Assistive Aim Guide (F# YOLO-Based AI)
 
-🚀 **An AI-powered aim assistance tool designed for accessibility, featuring human-like movement and real-time object tracking.**
+🚀 A powerful, AI-driven aim assistance tool designed for accessibility, using human-like movements and real-time object tracking.
 
 - **Smooth, non-locking mouse movement** for a natural feel.
 - **Supports AMD GPUs** using DirectML acceleration for high-performance inference.
