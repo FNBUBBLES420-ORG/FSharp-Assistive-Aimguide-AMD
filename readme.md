@@ -14,6 +14,51 @@
 # **If you find this project useful, Please Join Our Discord , We Have Lots to Offer, great community , supportive community, mental health support, and more [Click To Join](https://discord.fnbubbles420.org/)** your support is appreciated.
 ## FNBubbles420 Org is committed to creating an inclusive environment that supports all individuals, especially those dealing with mental health issues or physical disabilities. Our efforts are focused on providing adaptive technology, mental health resources, peer support groups, and creating educational programs that promote accessibility and mental wellness.
 
+## 🚨 Disclaimer
+
+This tool is developed as an **accessibility aid** for gamers with disabilities to help them compete more effectively in games.  
+We **advocate for fair play** and accessibility in gaming and do **not endorse cheating** or the promotion of cheating in any form.  
+Use of this tool in online games is at your own risk. Please consult with game developers if unsure about compatibility with game policies.  
+This tool should be used primarily as an assistive device in environments that support inclusivity.
+
+## Bubbles Advanced AI Anti Cheat Engine
+
+### ***[BAAACE](https://github.com/KernFerm/Bubbles-Advanced-Ai-Anti-Cheat-Engine)***
+
+---
+
+## 🌟 About Us
+
+At **[FNBubbles420 Org](https://github.com/FNBUBBLES420-ORG)**, we are dedicated to supporting **disabled gamers, developers, veterans, and streamers** through various initiatives. One of our primary programs is **[Game Vision Aid](https://github.com/FNBUBBLES420-ORG/game-vision-aid)**, which aims to enhance accessibility and performance for gamers with visual impairments.  
+
+**Game Vision Aid is coming soon** — we are still testing and developing it to ensure it meets the highest standards for accessibility.
+
+While the **Assistive AimGuide** is a separate project, it embodies our organization's dedication to leveraging innovative technologies to enhance accessibility and equality in gaming for those with disabilities. This commitment underlines our ongoing efforts to serve and uplift the community.
+
+---
+
+### 💬 Words to Live By  
+*"Life is a journey best traveled together; when we lift each other up, we rise as a community, stronger and more united. Every small act of kindness creates ripples that can change the world."*  
+– **Bubbles**
+
+---
+
+To learn more about what drives us, visit our **[Mission Page](https://www.fnbubbles420.org/ourmission)**.  
+If you'd like to get involved or learn more about volunteering, visit our **[Volunteer Page](https://www.fnbubbles420.org/volunteer)**.
+
+---
+
+## 📥 How to Download the Repo (First-Time Users)
+
+Click the link to read [**Instructions**](https://www.gitprojects.fnbubbles420.org/how-to-download-repos) 📄.
+
+# Copyright Notice
+
+© 2024 Bubbles The Dev and FNBUBBLES420ORG. All rights reserved.
+
+This image, including its design, text, and visual elements, is protected under copyright law. Unauthorized use, reproduction, distribution, or modification without the express written permission of Bubbles The Dev and FNBUBBLES420ORG is prohibited. For licensing or usage inquiries, please contact [media@fnbubbles420.org](mailto:media@fnbubbles420.org).
+</div>
+
 # 🎯 Assistive Aim Guide (F# YOLO-Based AI)
 
 🚀 **An AI-powered aim assistance tool designed for accessibility, featuring human-like movement and real-time object tracking.**
