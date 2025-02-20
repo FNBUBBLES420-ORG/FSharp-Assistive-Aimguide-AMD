@@ -1,11 +1,15 @@
-# .gitignore for Assistive Aim Guide (F# YOLO-Based AI)
-
-# Ignore build artifacts
+############################################
+# .NET / F# Build Artifacts
+############################################
 bin/
 obj/
 *.exe
 *.dll
 *.pdb
+*.nuget.props
+*.nuget.targets
+*.props
+*.targets
 *.so
 *.dylib
 *.a
@@ -14,82 +18,77 @@ obj/
 *.obj
 *.cache
 
-# Ignore user-specific files
-.vscode/
-.idea/
-*.userprefs
-*.suo
-*.user
-*.sln.docstates
+# Dotnet-pack / NuGet generated packages
+*.nupkg
+*.snupkg
 
-# Ignore log and temp files
+# Logs
 *.log
+install_log.txt
 *.tmp
 *.swp
 *.swo
 
-# Ignore dependency management files
-paket-files/
-packages/
-.nuget/
+# Rider / JetBrains IDE
+.idea/
+*.sln.iml
 
-# Ignore model and cache files
-*.onnx
-*.engine
-*.pt
-cache/
-checkpoints/
-__pycache__/
+# Visual Studio / VS for Mac
+.vs/
+*.user
+*.suo
+*.csproj.user
+*.vbproj.user
+*.fsproj.user
+*.gpState
+*.sln.docstates
 
-# Ignore configuration and environment files
-config.json
-.env
-secrets.json
-
-# Ignore image and video files (captured output)
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.mp4
-*.avi
-*.mov
-*.bmp
-
-# Ignore compiled Python bytecode
+############################################
+# Python Artifacts
+############################################
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.env
+*.venv
+venv/
+ENV/
+ENV.bak/
+venv.bak/
 
-# Ignore Visual Studio Code workspace settings
-.vscode/settings.json
-.vscode/tasks.json
-.vscode/launch.json
-.vscode/extensions.json
+############################################
+# Dependency Directories (if used)
+############################################
+packages/
+paket-files/
+.nuget/
 
-# Ignore Emgu.CV native files
-Emgu.CV.World.dll
-opencv_ffmpeg*.dll
+############################################
+# Exporting Folders & Files
+############################################
+exporting/imgs/
+exporting/models/
+exporting/ultralytics1/
+exporting/utils/
+exporting/butter-scotch-cookies.txt
 
-# Ignore SharpDX logs and temporary files
-SharpDX.log
-*.sharpdxcache
+############################################
+# Configuration / Secrets
+############################################
+config.json
+.env
+secrets.json
 
-# Ignore dotnet artifacts
-*.csproj.user
-*.nupkg
-*.snupkg
+############################################
+# Misc Editor Folders
+############################################
+.vscode/
+*.userprefs
+*.sln.docstates
 
-# Ignore DirectX Shader cache
-*.cso
-*.hlsl
-
-# Ignore MD files
-*.md
-
-# Ignore .fsproj.md
-*.fsproj.md
-
-# Ignore .fsproj
-*.fsproj
+############################################
+# Documentation / Temp Files
+############################################
+*.md~    # e.g., if you have temp MD backups
+*.bak    # or any leftover backup files
