@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget" # For .NET projects using NuGet
+    directory: "/"           # Root directory of the repository
+    schedule:
+      interval: "daily"      # Check for updates daily
+    open-pull-requests-limit: 10  # Maximum number of open PRs at a time
+    reviewers:
+      - "kernferm"          # Replace with your GitHub username or team
+    assignees:
+      - "kernferm"          # Assign PRs to a specific user or team
+    labels:
+      - "dependencies"
+      - "automated"
+    ignore:
+      - dependency-name: "Microsoft.ML.OnnxRuntime"
+        versions: [">=2.0.0"]   # Example: Ignore updates for OnnxRuntime 2.0.0+
+      - dependency-name: "Microsoft.ML.OnnxRuntime.DirectML"
+        versions: [">=2.0.0"]   # Example: Ignore updates for DirectML 2.0.0+
+    commit-message:
+      prefix: "deps"
+      include: "scope"
