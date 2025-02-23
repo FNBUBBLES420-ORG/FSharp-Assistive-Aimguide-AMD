@@ -147,16 +147,14 @@ if "%gpu_type%"=="NVIDIA" (
     python -m pip install "https://github.com/cupy/cupy/releases/download/v13.3.0/cupy_cuda11x-13.3.0-cp311-cp311-win_amd64.whl"
     echo Installing TensorRT for Python...
     python -m pip install "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\python\tensorrt-8.6.1-cp311-none-win_amd64.whl"
-    python -m pip install nvidia-ml-py3 nvidia-pyindex onnxruntime-gpu==1.20.1 onnx==1.17.0 tensorrt
+    python -m pip install nvidia-ml-py3 nvidia-pyindex onnxruntime-gpu==1.20.1 onnx==1.17.0 tensorrt numpy==2.1.1 onnx-simplifier==0.4.36 onnxruntime==1.20.1
 )
 
 :: AMD block
 if "%gpu_type%"=="AMD" (
     echo Installing AMD GPU packages (DirectML)...
     python -m pip install --upgrade pip
-    python -m pip install torch-directml
-    :: If you also want torchvision/torchaudio, install them:
-    python -m pip install torchvision torchaudio
+    python -m pip install torch-directml torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 onnx==1.17.0 onnx-simplifier==0.4.36 onnxruntime==1.20.1 onnxruntime-directml==1.20.1 numpy==2.1.1
 )
 
 pause
