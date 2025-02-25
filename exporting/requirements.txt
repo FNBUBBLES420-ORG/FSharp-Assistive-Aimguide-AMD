@@ -6,3 +6,4 @@ onnx-simplifier==0.4.36
 onnxruntime==1.20.1
 onnxruntime-directml==1.20.1
 numpy==2.1.1
+ultralytics
