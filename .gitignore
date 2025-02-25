@@ -92,3 +92,25 @@ secrets.json
 ############################################
 *.md~    # e.g., if you have temp MD backups
 *.bak    # or any leftover backup files
+
+
+############################################
+# Image Files
+############################################
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.svg
+*.psd
+*.raw
+*.heif
+*.heic
+*.indd
+*.ai
+*.eps
+*.pdf
