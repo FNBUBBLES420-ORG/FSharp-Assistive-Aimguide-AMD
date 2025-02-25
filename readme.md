@@ -180,7 +180,7 @@ You can edit the config.json file to tweak settings such as:
 ```
 
 ## Screenshot
-<img src="https://github.com/FNBUBBLES420-ORG/FSharp-Assistive-Aimguide-AMD/blob/main/screenshot/Assistive-AimGuide-main.png?raw=true" width="500">
+<img src="https://github.com/FNBUBBLES420-ORG/FSharp-Assistive-Aimguide-AMD/blob/main/screenshot/Assistive-AimGuide-main.png?raw=true" width="600">
 
 
 ## 🔧 Troubleshooting
