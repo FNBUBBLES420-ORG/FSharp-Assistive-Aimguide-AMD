@@ -18,7 +18,7 @@ For systems with AMD GPUs using DirectML, install the following packages:
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------|----------------|
 | Microsoft.ML.OnnxRuntime              | `dotnet add package Microsoft.ML.OnnxRuntime --version 1.20.1`                                              | 1.20.1         |
 | Microsoft.ML.OnnxRuntime.DirectML     | `dotnet add package Microsoft.ML.OnnxRuntime.DirectML --version 1.20.1`                                     | 1.20.1         |
-| TorchSharp                            | `dotnet add package TorchSharp --version 0.101.0`                                                           | 0.105.0       |
+| TorchSharp                            | `dotnet add package TorchSharp --version 0.105.0`                                                           | 0.105.0       |
 | MathNet.Numerics                      | `dotnet add package MathNet.Numerics --version 5.0.0`                                                       | 5.0.0          |
 | Emgu.CV                               | `dotnet add package Emgu.CV --version 4.6.0.5131`                                                           | 4.6.0.5131     |
 | System.IO.Ports                       | `dotnet add package System.IO.Ports --version 7.0.0`                                                        | 7.0.0          |
