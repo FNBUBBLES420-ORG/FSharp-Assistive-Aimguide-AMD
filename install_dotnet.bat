@@ -28,6 +28,6 @@ if %errorlevel% neq 0 (
 
 echo ✅ .NET SDK is installed. Proceeding...
 echo ===============================
-echo 🎉 All dependencies are ready! Enjoy coding!
+echo 🎉 ✅ .NET SDK is installed! Enjoy coding!
 echo ===============================
 pause
