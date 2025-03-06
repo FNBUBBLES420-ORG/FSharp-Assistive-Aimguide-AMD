@@ -124,13 +124,35 @@ dotnet add package SharpDX.DXGI --version 4.2.0
 dotnet add package Newtonsoft.Json --version 13.0.3
 ```
 
-## 3️⃣ Configure Execution Policy for PowerShell
-Open PowerShell as Administrator, navigate to the directory containing `install.ps1`, and run:
+- If you have issues installing the dotnet packages 
+
+To resolve this, try the following steps:
+
+Add the Official NuGet Source
+Open a command prompt (or terminal) and run:
 ```
-Set-ExecutionPolicy Bypass -Scope Process -Force
-.\install.ps1
+dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org
 ```
-- click Y to continue if is asked you if you want to proceed.
+
+This command adds the official NuGet feed (nuget.org) to your configuration. You can verify the configured sources by running:
+```
+dotnet nuget list source
+```
+
+### Restore the Project
+In your project directory, run:
+```
+dotnet restore
+```
+
+This ensures that the project uses the newly added NuGet source to find and download packages.
+
+### Re-run the Package Installation Commands
+Now, try running the `dotnet add package` commands again. For example:
+```
+dotnet add package SharpDX --version 4.2.0
+```
+- After it installs , go ahead and finish the other `Dotnet Packages`.
 
 ### make sure to `CD` the `src` folder before doing below: 
 ## 🔧 Build and Run the Project
