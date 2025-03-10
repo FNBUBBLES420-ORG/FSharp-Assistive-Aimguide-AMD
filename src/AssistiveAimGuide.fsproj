@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.20.1" />
-    <PackageReference Include="Microsoft.ML.OnnxRuntime.DirectML" Version="1.20.1" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.21.0" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime.Gpu" Version="1.21.0" />
     <PackageReference Include="TorchSharp" Version="0.105.0" />  <!-- Verify if this is the latest version -->
     <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
     <PackageReference Include="Emgu.CV" Version="4.6.0.5131" />  <!-- Corrected to the nearest available version -->
