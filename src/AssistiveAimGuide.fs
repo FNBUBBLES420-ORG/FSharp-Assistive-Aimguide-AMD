@@ -68,25 +68,35 @@ let showHelpMessage () =
     printfn "📌 Go To Assistive AimGuide Channel and ping @Bubbles The Dev"
     printfn "=========================================================="
 
-// ✅ Serial Communication Setup for Arduino Leonardo
-// Serial Communication Setup for Arduino Leonardo
-let mutable port =
-    try
-        let serialPort = new SerialPortStream("COM3", 115200)
-        serialPort.Open()
-        if not serialPort.IsOpen then
-            failwith "😱 Arduino Leonardo not detected! Please connect an Arduino Leonardo and try again. 🚫"
+// ✅ Optional Serial Communication Setup for Arduino Leonardo
+let mutable port: SerialPortStream option = None
+
+try
+    let serialPort = new SerialPortStream("COM3", 115200)
+    serialPort.Open()
+    if serialPort.IsOpen then
         printfn "✅✅ Connected to Arduino Leonardo on COM3! 🔌🤖"
-        serialPort
-    with ex ->
-        failwithf "❌ Error opening serial port: %s. Arduino Leonardo is required to run this application. 😢" ex.Message
+        port <- Some serialPort
+    else
+        printfn "⚠️ Arduino Leonardo is not connected. Running without serial integration."
+with ex ->
+    printfn "⚠️ No Arduino Leonardo detected. Running without serial support."
+    port <- None
 
 // Ensure proper disposal on process exit
 AppDomain.CurrentDomain.ProcessExit.Add(fun _ ->
-    if port <> null && port.IsOpen then
+    match port with
+    | Some p when p.IsOpen -> 
         printfn "🔌🚪 Closing serial port... See you later, Arduino! 👋"
-        port.Dispose()
+        p.Dispose()
+    | _ -> ()
 )
+
+// ✅ Only read from Arduino if it's connected
+if port.IsSome then
+    if port.Value.IsOpen && port.Value.BytesToRead > 0 then
+        let data = port.Value.ReadLine().Trim()
+        printfn "📡 Received from Arduino: %s" data
 
 // 🎯 Main Processing Loop
 let rec mainLoop (ct: CancellationToken) =
