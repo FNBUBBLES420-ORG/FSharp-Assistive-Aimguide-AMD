@@ -110,8 +110,8 @@ install_dotnet.bat  # (Windows 11)
 - Manually install the required packages below:
 
 ```
-dotnet add package Microsoft.ML.OnnxRuntime --version 1.20.1
-dotnet add package Microsoft.ML.OnnxRuntime.DirectML --version 1.20.1
+dotnet add package Microsoft.ML.OnnxRuntime --version 1.21.0
+dotnet add package Microsoft.ML.OnnxRuntime.DirectML --version 1.21.0
 dotnet add package TorchSharp --version 0.105.0
 dotnet add package MathNet.Numerics --version 5.0.0
 dotnet add package Emgu.CV --version 4.6.0.5131
