@@ -70,7 +70,7 @@ This image, including its design, text, and visual elements, is protected under 
 - **Dynamic YOLO model selection via UI** at runtime.
 - **Windows 11 compatibility** (requires DirectX and Windows-specific libraries).
 - **Supports ONNX models (`.onnx`)** for AI inference.
-- **Arduino Leonardo support** for serial input-based control. **`Recommended`**
+- **Arduino Leonardo support** for serial input-based control. **`Optional`**
 
 ---
 
