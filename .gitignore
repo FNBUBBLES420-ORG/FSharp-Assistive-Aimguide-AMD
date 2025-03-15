@@ -4,6 +4,7 @@
 bin/
 obj/
 *.exe
+autosetup.exe
 *.dll
 *.pdb
 *.nuget.props
@@ -92,7 +93,6 @@ secrets.json
 ############################################
 *.md~    # e.g., if you have temp MD backups
 *.bak    # or any leftover backup files
-
 
 ############################################
 # Image Files
