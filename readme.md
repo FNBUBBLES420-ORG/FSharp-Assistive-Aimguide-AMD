@@ -221,6 +221,21 @@ You can edit the config.json file to tweak settings such as:
 
 ### Note: This tool is Windows 11-only due to its reliance on DirectX and Windows-specific libraries.
 
+## 🛠️ Tested Environment
+
+The project has been successfully tested on the following setup:
+
+- **Processor**: AMD Ryzen 9 7900X 12-Core Processor @ 4.70 GHz
+- **GPU**: DUEL GPU: "NVIDIA GeForce RTX 4060 Ti" "AMD Radeon"
+- **Operating System**: Windows 11
+- **Python Version**: 3.11.9
+
+### Works On
+- **Nvidia GPU**
+- **AMD GPU**
+
+---
+
 # LICENSE
 ### ***This project is proprietary and all rights are reserved by the author.***
 ### ***Unauthorized copying, distribution, or modification of this project is strictly prohibited.***
@@ -229,8 +244,9 @@ You can edit the config.json file to tweak settings such as:
 ## 📧 Need help? Contact us on Discord or open an issue!
 
 [Invite Link](https://discord.fnbubbles420.org/invite)
-
 - Go to the `Assistive AimGuide channel` and `ping Bubbles The Dev`.
 - How to use custom models join the server and ask `Bubbles`.
 
+---
 ## 🚀 Happy Gaming! 🎮
+---
