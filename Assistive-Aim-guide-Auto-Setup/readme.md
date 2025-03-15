@@ -72,8 +72,9 @@ NVIDIA GPUs **require Visual Studio 2022 Community Edition**:
 The script will then install:
 ```bash
 python -m pip install torch==2.6.0+cu118 torchvision==0.21.0+cu118 torchaudio==2.6.0+cu118 --index-url https://download.pytorch.org/whl/cu118
-python -m pip install "https://github.com/cupy/cupy/releases/download/v13.3.0/cupy_cuda11x-13.3.0-cp311-cp311-win_amd64.whl"
-python -m pip install nvidia-ml-py3 nvidia-pyindex onnxruntime-gpu==1.20.1 onnx==1.17.0 tensorrt
+python -m pip install "https://github.com/cupy/cupy/releases/download/v13.4.0/cupy_cuda11x-13.4.0-cp311-cp311-win_amd64.whl"
+python -m pip install "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\python\tensorrt-8.6.1-cp311-none-win_amd64.whl"
+python -m pip install nvidia-ml-py3 nvidia-pyindex onnxruntime-gpu==1.21.0 onnx==1.17.0 tensorrt numpy==2.1.1 onnx-simplifier==0.4.36 onnxruntime==1.21.0
 ```
 
 ---
@@ -88,23 +89,7 @@ python -m pip install nvidia-ml-py3 nvidia-pyindex onnxruntime-gpu==1.20.1 onnx=
 
 ### 5️⃣ Install AMD Libraries 📦
 ```bash
-python -m pip install torch torchvision torchaudio torch-directml numpy opencv-python comtypes pandas cupy bettercam psutil colorama ultralytics PyAutoGUI PyGetWindow pywin32 pyyaml tqdm matplotlib seaborn requests ipython dxcam onnx onnx-simplifier onnxruntime onnxruntime-directml pyarmor dill serial
-```
-
----
-
-## 🔸 CPU-Only Users 💻
-No additional setup is needed. The script will install:
-```bash
-python -m pip install torch torchvision torchaudio numpy opencv-python pyautogui pygetwindow pandas pywin32 pyyaml tqdm matplotlib seaborn requests ipython psutil dxcam onnxruntime serial bettercam pyarmor ultralytics onnx
-```
-
----
-
-## 🛠️ Final Setup (For All Users)
-The script will install **all required Python packages**:
-```bash
-python -m pip install numpy opencv-python comtypes pandas bettercam psutil colorama ultralytics PyAutoGUI PyGetWindow pywin32 pyyaml tqdm matplotlib seaborn requests ipython dxcam onnx onnxruntime onnx-simplifier pyarmor dill serial
+python -m pip install torch-directml torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 onnx==1.17.0 onnx-simplifier==0.4.36 onnxruntime==1.21.0 onnxruntime-directml==1.21.0 numpy==2.1.1
 ```
 
 ---
