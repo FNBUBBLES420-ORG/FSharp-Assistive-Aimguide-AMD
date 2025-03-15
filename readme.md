@@ -243,7 +243,8 @@ The project has been successfully tested on the following setup:
 
 ## 📧 Need help? Contact us on Discord or open an issue!
 
-[Invite Link](https://discord.fnbubbles420.org/invite)
+- [Discord Invite Link](https://discord.gg/vTdZf7Ze8F)
+
 - Go to the `Assistive AimGuide channel` and `ping Bubbles The Dev`.
 - How to use custom models join the server and ask `Bubbles`.
 
