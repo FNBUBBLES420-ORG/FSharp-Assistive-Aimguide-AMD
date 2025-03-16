@@ -64,7 +64,7 @@ let cts = new CancellationTokenSource() // For stopping async loops
 // 🆘 Display Help Message
 let showHelpMessage () =
     printfn "📧 Need help? Join FNBubbles420 Org Community Discord Server"
-    printfn "🔗 Invite Link: https://discord.fnbubbles420.org/invite"
+    printfn "🔗 Invite Link: https://discord.gg/9vG777kJYc"
     printfn "📌 Go To Assistive AimGuide Channel and ping @Bubbles The Dev"
     printfn "=========================================================="
 
