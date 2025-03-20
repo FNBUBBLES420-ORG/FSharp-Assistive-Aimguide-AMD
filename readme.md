@@ -218,6 +218,8 @@ You can edit the config.json file to tweak settings such as:
 - Issue: Arduino Leonardo not recognized.
 - Fix: Ensure the correct COM port is set and the drivers are properly installed.
 ---
+# GOT ISSUES ??
+## [GOT ISSUES CLICK HERE](https://github.com/FNBUBBLES420-ORG/FSharp-Assistive-Aimguide-AMD/blob/main/GOT-ISSUES%3F.MD)
 
 ### Note: This tool is Windows 11-only due to its reliance on DirectX and Windows-specific libraries.
 
