@@ -47,6 +47,10 @@ To learn more about what drives us, visit our **[Mission Page](https://www.fnbub
 If you'd like to get involved or learn more about volunteering, visit our **[Volunteer Page](https://www.fnbubbles420.org/volunteer)**.
 
 ---
+# If you Support us make sure to follow [https://github.com/FNBUBBLES420-ORG](https://github.com/FNBUBBLES420-ORG)
+---
+
+---
 
 ## 📥 How to Download the Repo (First-Time Users)
 
